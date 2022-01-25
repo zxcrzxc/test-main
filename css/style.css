@@ -23,19 +23,74 @@ h1 {
     font-weight: 700;
     color: #6e7ea9;
     text-transform: uppercase;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+ 
+li{
+    display: inline;
+    padding: 5px;
+}
+
+.btn-primary{
+    color: #fff;
+    background-color: #1085e4;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 25px 45px;
+    border-radius: 30px;
+    letter-spacing: 3.5px;
+    border: 1px solid #1085e4;
+}
+
+.btn-primary:hover{
+    color: #1085e4 ;
+    background-color: #fff ;
+}
+
+.btn-secondary{
+    color: #7e8bae;
+    background-color: #cbdbe8;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 25px 45px;
+    border-radius: 30px;
+    letter-spacing: 3.5px;
+    border: 1px solid #cbdbe8;
+}
+
+.btn-secondary:hover{
+    background-color: #fff;
 }
 
 .btn-free {
-    color: #fff;
     font-weight: 400;
-    background-color: #1085e4;
+    letter-spacing: 2.3px;
+    padding: 25px 60px;
+}
+
+.bth-group a+a{
+    margin-left: 15px;
+}
+
+.btn-info{
+    color: #8085b1; 
+    background: transparent;
+    border: 1px solid #dce1e5;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 20px 40px;
+    border-radius: 30px;
 }
 
 .grid h2{
     font-size: 40px;
     color: #192b59;
     font-weight: 700;
-
 }
 
 .grid h2 span{
@@ -112,26 +167,36 @@ h1 {
     color: #192b59;
 }
 
-.home-work1 h2{
+.hw1 h2{
     font-size: 50px;
     font-weight: 600;
     color: #192b59;
 }
 
-.home-work1 a{
-    font-size: 14px;
-    font-weight: 600;
-    color: #1085e4;
+.hw1 a{
+    color: #fff;
+    background-color: #1085e4;
     text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 25px 45px;
+    border-radius: 30px;
+    letter-spacing: 3.5px;
+    border: 1px solid #1085e4;
 }
 
-.home-work2 h2{
+.hw2 h2{
     font-size: 50px;
     font-weight: 600;
     color: #192b59;
 }
 
-.home-work2 a{
+.hw2 a:hover{
+    color: #1085e4 ;
+    background-color: #fff ;
+}
+
+.hw2 a{
     font-size: 14px;
     font-weight: 600;
     color: #1085e4;
@@ -149,4 +214,55 @@ h1 {
     font-size: 40px;
     font-weight: 600;
     color: #192b59;
+}
+
+.btn-info{
+    color: #7e8bae;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 25px 45px;
+    border-radius: 30px;
+    letter-spacing: 3.5px;
+    border: 1px solid #cbdbe8;
+}
+
+.btn-info:hover{
+    color: #fff ;
+    background-color: #1085e4 ;
+}
+
+.box-price-item1 a{
+    color: #7e8bae;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 25px 45px;
+    border-radius: 30px;
+    letter-spacing: 3.5px;
+    border: 1px solid #cbdbe8;
+}
+
+.box-price-item1 a:hover{
+    color: #fff ;
+    background-color: #1085e4 ;
+}
+
+.middle-blue{
+    color: #fff;
+    background-color: #1085e4;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 25px 45px;
+    border-radius: 30px;
+    letter-spacing: 3.5px;
+    border: 1px solid #1085e4;
+}
+
+.middle-blue:hover{
+    color: #1085e4 ;
+    background-color: #fff ;
 }
