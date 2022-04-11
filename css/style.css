@@ -565,4 +565,41 @@ h1 {
     height: 72px;
 }
 
+.page-subdown{
+    font-size: 50px;
+    font-weight: 600;
+    color: #192b59;
+    line-height: 1.2;
+    letter-spacing: -1.5px;
+}
+.page-subscribe h2 span{
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.page-subscribe .page-subdown{
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
 
+.box-subscribe{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-subscribe-user input::-webkit-input-placeholder{
+    color: #b1c3ee;
+}
+
+.box-subscribe-user input::-moz-placeholder{
+    color: #b1c3ee;
+}
+
+.box-subscribe-user input:-moz-placeholder{
+    color: #b1c3ee;
+}
+
+.box-subscribe-user input:-ms-input-placeholder{
+    color: #b1c3ee;
+}
