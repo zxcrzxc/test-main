@@ -1,298 +1,415 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Limpon</title>
-    <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-touch-icon-57x57.png" data-mce-href="images/favicon/apple-touch-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-touch-icon-60x60.png" data-mce-href="images/favicon/apple-touch-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-touch-icon-72x72.png" data-mce-href="images/favicon/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-touch-icon-76x76.png" data-mce-href="images/favicon/apple-touch-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-touch-icon-114x114.png" data-mce-href="images/favicon/apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-touch-icon-120x120.png" data-mce-href="images/favicon/apple-touch-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-touch-icon-144x144.png" data-mce-href="images/favicon/apple-touch-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-touch-icon-152x152.png" data-mce-href="images/favicon/apple-touch-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon-180x180.png" data-mce-href="images/favicon/apple-touch-icon-180x180.png">
-    <link rel="icon" type="image/png" href="images/favicon/favicon-32x32.png" sizes="32x32" data-mce-href="images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" href="images/favicon/android-chrome-192x192.png" sizes="192x192" data-mce-href="images/favicon/android-chrome-192x192.png">
-    <link rel="icon" type="image/png" href="images/favicon/favicon-96x96.png" sizes="96x96" data-mce-href="images/favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" href="images/favicon/favicon-16x16.png" sizes="16x16" data-mce-href="images/favicon/favicon-16x16.png">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="apple-touch-icon" sizes="57x57" href="IMG/favicon/apple-touch-icon-57x57.png" data-mce-href="IMG/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="IMG/favicon/apple-touch-icon-60x60.png" data-mce-href="IMG/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="IMG/favicon/apple-touch-icon-72x72.png" data-mce-href="IMG/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="IMG/favicon/apple-touch-icon-76x76.png" data-mce-href="IMG/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="IMG/favicon/apple-touch-icon-114x114.png" data-mce-href="IMG/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="IMG/favicon/apple-touch-icon-120x120.png" data-mce-href="IMG/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="IMG/favicon/apple-touch-icon-144x144.png" data-mce-href="IMG/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="IMG/favicon/apple-touch-icon-152x152.png" data-mce-href="IMG/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="IMG/favicon/apple-touch-icon-180x180.png" data-mce-href="IMG/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="IMG/favicon/favicon-32x32.png" sizes="32x32" data-mce-href="IMG/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" href="IMG/favicon/android-chrome-192x192.png" sizes="192x192" data-mce-href="IMG/favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" href="IMG/favicon/favicon-96x96.png" sizes="96x96" data-mce-href="IMG/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" href="IMG/favicon/favicon-16x16.png" sizes="16x16" data-mce-href="IMG/favicon/favicon-16x16.png">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
     <div class="page-header">
-        <div class="wrap box-header">
+        <div class="wrap container-header">
             <a href="#" class="logo"></a>
             <ul class="nav">
-                <li><a href="" class="nav-item">Home</a></li>
-                <li><a href="" class="nav-item">Features</a></li>
-                <li><a href="" class="nav-item">Video</a></li>
-                <li><a href="" class="nav-item">Screens</a></li>
-                <li><a href="" class="nav-item">Pricing</a></li>
-                <li><a href="" class="nav-item">Team</a></li>
-                <li><a href="" class="btn-free btn-primary" >free trail</a></li>
-            </ul>
+                <li class="nav-item">Home</li>
+                <li class="nav-item">Features</li>
+                <li class="nav-item">Video</li>
+                <li class="nav-item">Screens</li>
+                <li class="nav-item">Pricing</li>
+                <li class="nav-item">Team</li>
+                <li><a href="#" class="btn-primaty btn-free">Free trail</a></li>
+            </ul> 
         </div>
-        <div class="wrap">
-            <h1>Best Software Landingpage</h1>
-            <div class="btn-group">
-                <a href="" class="btn-primary">get started now</a>
-                <a href="" class="btn-secondary">learn more</a>
-            </div>
-        </div>
+            
+            <div class="wrap">
+                <h1>Best Software Landingpage</h1>
+                    <div class="btn-group">
+                        <a href="#" class="btn-primaty">get started now</a>
+                        <a href="#" class="btn-secondary">learn more</a>
+                    </div>  
+            </div>   
+
         <div class="screen-img"></div>
     </div>
 
-    <div class="page-company">
-        <ul class="list-company">
-            <li class="list-company-item company-one"></li>
-            <li class="list-company-item company-two"></li>
-            <li class="list-company-item company-three"></li>
-            <li class="list-company-item company-four"></li>
-        </ul>
+    <div class="page">    
+        <div class="page-company">
+            <div class="wrap">
+                <ul class="list-company">
+                    <li class="list-company-item company-one"></li>
+                    <li class="list-company-item company-two"></li>
+                    <li class="list-company-item company-three"></li>
+                    <li class="list-company-item company-four"></li>
+                </ul> 
+            </div> 
+        </div>
     </div>
-    <div class="page-grid">
-        <div class="grid">
-            <h2><span>Features</span>Best Features Ever Seen</h2>
-            <div class="grid-item">
-                <div></div>
-                <h3>Well Documented</h3>
-                <p>Lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed</p>
-                <a href="">Read More</a>
-            </div>
 
-            <div class="grid-item">
-                <div></div>
-                <h3>Highly Customizeable</h3>
-                <p>Lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed</p>
-                <a href="">Read More</a>
-            </div>
-
-            <div class="grid-item">
-                <div></div>
+    <article class="page-grid">
+        <div class="wrap grid">
+            <h2 class="tittle grid-tittle"><span>Features</span>Best Features Ever Seen</h2>
+            <div class="grid-item grid-item-1">
+                <div class="grid-icon">
+                    <img src="images/icons/icon2.png" alt="icon">
+                </div>
                 <h3>Mobile Friednly Design</h3>
-                <p>Lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed</p>
+                <p>Lorem ipsum dolor sit amet, conse
+                    ctetur adipisicing elit, sed don eiusmod tempor incididunt.</p>
                 <a href="">Read More</a>
             </div>
-
-            <div class="grid-item">
-                <div></div>
-                <h3>Responsive Design</h3>
-                <p>Lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed</p>
+            <div class="grid-item grid-item-2">
+                <div class="grid-icon">
+                    <img src="images/icons/icon.png" alt="icon">
+                </div>
+                <h3>Well Documented</h3>
+                <p>Lorem ipsum dolor sit amet, conse
+                    ctetur adipisicing elit, sed don eiusmod tempor incididunt.</p>
                 <a href="">Read More</a>
             </div>
-
-            <div class="grid-item">
-                <div></div>
-                <h3>24/7 Online Support</h3>
-                <p>Lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed</p>
+            <div class="grid-item grid-item-3">
+                <div class="grid-icon">
+                    <img src="images/icons/icon1.png" alt="icon">
+                </div>
+                <h3>Highly Customizeable</h3>
+                <p>Lorem ipsum dolor sit amet, conse
+                    ctetur adipisicing elit, sed don eiusmod tempor incididunt.</p>
                 <a href="">Read More</a>
             </div>
-
-            <div class="grid-item">
-                <div></div>
+            <div class="grid-item grid-item-4">
+                <div class="grid-icon">
+                    <img src="images/icons/icon4.png" alt="icon">
+                </div>
                 <h3>Easy To Edit</h3>
-                <p>Lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed</p>
+                <p>Lorem ipsum dolor sit amet, conse
+                    ctetur adipisicing elit, sed don eiusmod tempor incididunt.</p>
                 <a href="">Read More</a>
             </div>
-            
-            <div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed d</p>
-                <p> <span>Rosalina Pong</span> - Founder, uithemes</p>
+            <div class="grid-item grid-item-5">
+                <div class="grid-icon">
+                    <img src="images/icons/icon3.png" alt="icon">
+                </div>
+                <h3>Responsive Design</h3>
+                <p>Lorem ipsum dolor sit amet, conse
+                    ctetur adipisicing elit, sed don eiusmod tempor incididunt.</p>
+                <a href="">Read More</a>
+            </div>
+            <div class="grid-item grid-item-6">
+                <div class="grid-icon">
+                    <img src="images/icons/icon5.png" alt="icon">
+                </div>
+                <h3>24/7 Online Support</h3>
+                <p>Lorem ipsum dolor sit amet, conse
+                    ctetur adipisicing elit, sed don eiusmod tempor incididunt.</p>
+                <a href="">Read More</a>
+            </div>
+            <div class="grid-item-k grid-text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <span>Rosalina Pong<a href="#"> - Founder, uithemes</a></span>
             </div>
         </div>
-    </div>
+    </article>
+
+
+        
     <div class="page-subscribe">
-        <div class="wrap box-subscribe">
-           <div class="box-subscribe-child">
-               <h2 class="page-subdown"><span>Subscribe</span>Signup For A Trail</h2>
-               <p class="page-submain">Create your free account now & get 30 days free trail No credit</p>  
-               <div class="box-subscribe-user"> 
-                   <input type="email" placeholder="Enter your email address">
-                   <button type="submit" class="btn-primary">Subscribe</button>
-               </div>
-           </div> 
-               <img class="Robot" src="images/Robot.png" alt="Robot">
-        </div>
+                <div class="wrap box-subscribe">
+                    <div class="box-subscribe-r">
+                        <h2 class="title-h2"><span>Subscribe</span>Signup For A Trail</h2>
+                        <p>Create your free account now & get 30 days free trail No credit</p>
+                        <div class="email">
+                            <input class="input-email" type="email"  placeholder="Enter your email address">
+                            <button class="button-email" type="submit">Subscribe</button>
+                        </div>
+                    </div>
+                    <img src="images/robot.png" alt="icon">
+                </div>      
     </div>
-<div class="page-software">
-    <div></div>
-    <h2>Grab Your  Software With Amazing  Features</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed d</p>
-    <dl>
-      <dt>01. Clean Design</dt>
-      <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed d</dd>
-      <dt>02. Easy To Customize</dt>
-      <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed d</dd>
-    </dl>
-</div>
-<div class="page-stat">
-    <div class="wrap">
-        <h2 class="title-h2"><span>Fun Facts</span>Some Fun Facts About Dashboard</h2>
-        <ul class="list-stat">
-            <li><span>53K</span>Layouts</li>
-            <li><span>10K</span>projects</li>
-            <li><span>12K</span>cup coffee</li>
-            <li><span>120</span>awards</li>
-        </ul>
-    </div>
-</div>
 
-<div class="page-app">
-    <div>
-        <div>
-            <h2>Meet With Future Landingpage</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed d</p>
-            <p>Available Now</p>
-            <ul>
-                <li>
-                    <a href="" target="_blank"></a>
-                </li>
-                <li>
-                    <a href="" target="_blank"></a>
-                </li>
-            </ul>
-        </div>
-        <img src="images/video.png" alt="play">
-    </div>
-</div>
-
-<div class="hw1">
-    <div></div>
-    <h2>Limpon Is Suitable For Anytype LandingPage</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed d</p>
-    <a href="">get started now</a>
-</div>
-
-<div class="hw2">
-    <div></div>
-    <h2>Easy To Etid & Very Easily Control</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed d</p>
-    <a href="">learn more</a>
-</div>
-
-<div class="page-screen">
-    <div>
-        <h2><span>screen-preview</span>Screenshot With Detalis</h2>
-        <img src="images/screen.png" alt="screen">
-    </div>
-</div>
-<div class="page-ckients">
-    <div>
-        <h2> <span> testimonials </span> Our Happy Ckients</h2>
-        <div class="box-clients">
-            <div>
-                <p>It is a long established fact that a read her will be distracted</p>
-                <p class="name"> Rolin B. Miranoc</p>
-                <p class="position">ceo, uihub</p>
-            </div>
-            <div>
-                <p>It is a long established fact that a read her will be distracted</p>
-                <p class="name"> Rolin B. Miranoc</p>
-                <p class="position">ceo, uihub</p>
-            </div>
-            <div>
-                <p>It is a long established fact that a read her will be distracted</p>
-                <p class="name"> Rolin B. Miranoc</p>
-                <p class="position">ceo, uihub</p>
+    <div class="page-software">
+            <div class = "wrap">
+                <img src="images/section-1.png" alt="Прим" class="soft-img">
+                <div class="soft-box">
+                    <div class="res-icon"></div>
+                    <h2 class="tittle-h2-h">Grab Your Software <br> With Amazing  Features</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                <dl class = "soft-list">
+                    <dt>01. Clean Design</dt>
+                    <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</dd>
+                    <dt>02. Easy To Customize</dt>
+                    <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</dd>
+                </dl>
             </div>
         </div>
     </div>
-</div>
-<div class="page-plan">  
-    <div>
-        <h2 class="title-h2-40"><span>our plans</span>Pricing Plans</h2>
-        <div>
-            <div class="box-price-item">
-                <h3>Free</h3>
-                <p><strong>starter</strong></p>
-                <ul>
-                    <li>Unlimited users Active</li>
-                    <li>Active 1 GB Bandwidth Speed </li>
-                    <li>256 MB Memory Card</li>
-                    <li>Free Domain Name</li>
-                    <li>Free Histing Name</li>
-                    <li>24x7 Online Support</li>
+
+        <div class="page-stat">
+            <div class="wrap">
+                <img src="images/kv.png" alt="square" class="square">
+                <h2 class="title-h2-h"><span>Fun Facts</span>Some Fun Facts About Dashboard</h2>
+                <ul class="numbers">
+                    <li><span>53k</span>Layouts</li>
+                    <li><span>10k</span>Projects</li>
+                    <li><span>12k</span>Cup coffee</li>
+                    <li><span>120</span>Awards</li>
                 </ul>
-                <a href="" class="btn-info">choose plan</a>
             </div>
-            <div class="box-price-item active">
-                <h3><span>$</span>90<span>/mo</span></h3>
-                <p><strong>starter</strong></p>
-                <ul>
-                    <li>Unlimited users Active</li>
-                    <li>Active 1 GB Bandwidth Speed </li>
-                    <li>256 MB Memory Card</li>
-                    <li>Free Domain Name</li>
-                    <li>Free Histing Name</li>
-                    <li>24x7 Online Support</li>
-                </ul>
-                <a href="" class="middle-blue">choose plan</a>
+            <img src="images/krug.png" alt="circle" class="circle">
+        </div>
+        
+
+
+        <div class="p-app">
+            <img src="images/bg-3.png" alt="appintro" class="app-intro">
+            <div class="wrap">
+                <img src="images/kv.png" alt="square" class="square">
+                <div class = "app-box">
+                    <h3 class = "title-h2-h">Meet With <br> Future Landingpage</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                    <span>Available Now</span>
+                    <div class="but-app">
+                        <a href="#" class="google-pl"></a>
+                        <a href="#" class="app-str"></a>
+                    </div>
+                </div>
+                <div class="app-video-box"><a class="video" href="https://www.youtube.com/watch?v=8ofM1i8sAok" target="_blank"></a></div>
             </div>
-            <div class="box-price-item">
-                <h3><span>$</span>350<span>/mo</span></h3>
-                <p><strong>starter</strong></p>
-                <ul>
+            <img src="images/krug.png" alt="circle" class="circle">
+        </div>
+    
+
+
+        <div class="analiz-1">
+            <div class = "wrap">
+                <img src="images/Brandon-Kricj.png" alt="finans">
+                <div class="analiz-1-box">
+                    <div class = "res-icon2"></div>
+                    <h2 class = "title-h2-hk">Limpon Is Suitable For Anytype LandingPage</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                    <a href="#" class="btn-primaty">get started now</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="page-control">
+            <div class = "wrap">
+                <div class = "analiz-2-box">
+                    <div class = "res-icon2"></div>
+                    <h2 class ="title-h2-l">Easy To Etid & <br> Very Easily Control</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                    <a href="#" class="btn-primaty">learn more</a>
+                </div>
+                <img src="images/grafik.png" alt="grafik">
+            </div>
+        </div>
+       
+        
+        <section class="page-screen">
+            <div class="wrap">
+                <h2 class="tittle-h2-lk"><span>screen preview</span>Screenshot With Details</h2>
+                <img src="images/screen.png" alt="screen" class="screen">
+            </div>
+        </section>
+        
+
+        <div class="clients-page">
+            <img src="images/oval.png" alt="background img" class="oval">
+            <div class="wrap">
+                <h2 class="tittle-h2-m"><span>testimonials</span>Our Happy Clients</h2>
+                <div class="clients-box">
+                    <div class="box-clients-item">
+                        <p>It is a long established fact that a read her will be distracted by the readable content of a page when looking.</p>
+                        <div class="info-cl">
+                            <img src="images/ava.png" alt="avatar">
+                            <h3>Rolin B. Mirano<span>ceo, uihub</span></h3>
+                        </div>
+                    </div>
+                    <div class="box-clients-item">
+                        <p>It is a long established fact that a read her will be distracted by the readable content of a page when looking.</p>
+                        <div class="info-cl">
+                            <img src="images/ava.png" alt="avatar">
+                            <h3>Rolin B. Mirano<span>ceo, uihub</span></h3>
+                        </div>
+                    </div>
+                    <div class="box-clients-item">
+                        <p>It is a long established fact that a read her will be distracted by the readable content of a page when looking.</p>
+                        <div class="info-cl">
+                            <img src="images/ava.png" alt="avatar">
+                            <h3>Rolin B. Mirano<span>ceo, uihub</span></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="page-plan">
+            <div class="wrap">
+             <div>
+                 <h2 class="tittle-h2-ht"><span> our plans</span> Pricing Plans</h2>
+                <div class="box-price">
+                    <div class="box-price-item box-price-item-cener">
+                        <h3>Free</h3>
+                        <span>starter</span>
+                        <ul>
+                            <li>Unlimited users Active</li>
+                            <li>1 GB Bandwidth Speed</li>
+                            <li>256 MB Memory Card</li>
+                            <li>Free Domain Name</li>
+                            <li>Free Hosting Name</li>
+                            <li>24x7 Online Support</li>
+                            <li><a class="btn-info pricing-btn" href="#">choose plan</a></li>
+                        </ul>
                     
-                    <li>Unlimited users Active</li>
-                    <li>Active 1 GB Bandwidth Speed </li>
-                    <li>256 MB Memory Card</li>
-                    <li>Free Domain Name</li>
-                    <li>Free Histing Name</li>
-                    <li>24x7 Online Support</li>
-                </ul>
-                <a href="" class="btn-info">choose plan</a>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="page-tea">
-    <div>
-        <div class="box-team">
-            <div>
-                <p>founder</p>
-                <p>Ricardo T. Obrein</p>
-            </div>
-            <div>
-                <p>ceo</p>
-                <p>Alberto Del Rio</p>
-            </div>
-            <div>
-                <p>Designer</p>
-                <p>Thomas Alva Adison</p>
-            </div>
-        </div>
-    </div>
-</div>
+                    </div>
 
-<div class="page-form">
-    <div>
-        <h2>Start Your Free Trail No Nedd Credit Card.</h2>
-        <form action="">
-            <input type="text" placeholder="Enter your name here">
-            <input type="email" placeholder="Enter your email here">
-            <textarea name="textMassage" placeholder="Enter your massage here"></textarea>
-            <button type="sumbit"><span></span> Sumbit now</button>
-        </form>
+                    <div class="box-price-item active">
+                        <h3><span>$</span>90<span>/mo</span></h3>
+                        <span>starter</span>
+                        <ul>
+                            <li>Unlimited users Active</li>
+                            <li>1 GB Bandwidth Speed</li>
+                            <li>256 MB Memory Card</li>
+                            <li>Free Domain Name</li>
+                            <li>Free Hosting Name</li>
+                            <li>24x7 Online Support</li>
+                            <li><a class="btn-primaty pricing-btn" href="#">choose plan</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="box-price-item">
+                        <h3><span>$</span>350 <span>/mo</span></h3>
+                        <span> starter</span>
+                        <ul>
+                            <li>Unlimited users Active</li>
+                            <li>1 GB Bandwidth Speed</li>
+                            <li>256 MB Memory Card</li>
+                            <li>Free Domain Name</li>
+                            <li>Free Hosting Name</li>
+                            <li>24x7 Online Support</li>
+                            <li><a class="btn-info pricing-btn" href="#">choose plan</a></li>
+                        </ul>
+                    </div>
+                </div>
+             </div>
+        </div>
     </div>
-</div>
-<div class="footer">
-    <div>
-        <p>Made With Love & Copyright By <a href="">limpon</a></p>
-        <ul class="social">
-            <li> <a href="" target="_blank"></a></li>
-            <li> <a href="" target="_blank"></a></li>
-            <li> <a href="" target="_blank"></a></li>
-            <li> <a href="" target="_blank"></a></li>
-            <li> <a href="" target="_blank"></a></li>
-        </ul>
+
+    <div class="page-team">
+        <div class="wrap">
+            <h2 class="tittle-h2-htl"><span>Angels</span>Our team</h2>
+            <div class="box-team">
+                <div class = "box-team-item">
+                    <img src="images/ri.png" alt="Ricardo">
+                    <p class="position">founder</p>
+                    <p class="name">Ricardo T. Obrien</p>
+                    <div class="team-social btn-ri"></div>
+                    <div class="social-box-ri">
+                        <div class="link-social-box btn-box"style="display:none" >
+                            <a href="" class="link-social link-fb"></a>
+                            <a href="" class="link-social link-tv"></a>
+                            <a href="" class="link-social link-be"></a>
+                            <a href="" class="link-social link-web"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class = "box-team-item">
+                    <img src="images/al.png" alt="Alberto">
+                    <p class="position">ceo</p>
+                    <p class="name">Alberto Del Rio</p>
+                    <div class="team-social btn-alberto"></div>
+                    <div class="social-box-al">
+                        <div class="link-social-box btn-box" style="display:none">
+                            <a href="" class="link-social link-fb"></a>
+                            <a href="" class="link-social link-tv"></a>
+                            <a href="" class="link-social link-be"></a>
+                            <a href="" class="link-social link-web"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class = "box-team-item">
+                    <img src="images/th.png" alt="Thomas">
+                    <p class="position">designer</p>
+                    <p class="name">Thomas Alva Adison</p>
+                    <div class="team-social btn-alva"></div>
+                    <div class="social-box-th">
+                        <div class="link-social-box btn-box" style="display:none">
+                            <a href="" class="link-social link-fb"></a>
+                            <a href="" class="link-social link-tv"></a>
+                            <a href="" class="link-social link-be"></a>
+                            <a href="" class="link-social link-web"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
-</body>
+
+        <div class="page-form">
+            <div class = "wrap">
+                <img src="images/grafik1.png" alt="Example">
+                <div class="box-form">
+                <h2 class ="title-h2-h">Start Your Free Trail No Need Credit Card.</h2>
+                <form action="">
+                    <div class="form-box-name">
+                        <input type="text" placeholder="Enter your name here" class="form-name">
+                    </div>
+                    <div class="form-box-email">
+                        <input type="email" placeholder="Enter your email here" class="form-email">
+                    </div>
+                    <div class="form-box-massanger">
+                        <textarea placeholder="Enter your message here" class="form-massenge"></textarea>
+                    </div>
+                    <div class="form-box-btn">
+                        <button class="btn-primaty btn-form">submit now</button>
+                    </div>
+                </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class = "wrap">
+                <h3>Made With Love & Copyright By - <a href="">limpon</a></h3>
+                <ul class="social_icon">
+                    <li><a class="footer-fb" href=""></a></li>
+                    <li><a class="footer-t" href=""></a></li>
+                    <li><a class="footer-b" href=""></a></li>
+                    <li><a class="footer-w" href=""></a></li>
+                    <li><a class="footer-f" href=""></a></li>
+               </ul>
+            </div>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script>
+             $(document).ready(function(){
+                $(".team-social").click(function(){
+                    $(".team-social").hide();
+                    $(".btn-box").fadeIn();
+                });
+            });
+        </script>
+
+    </body>
 
 </html>
